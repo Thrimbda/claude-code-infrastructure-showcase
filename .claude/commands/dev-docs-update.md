@@ -52,4 +52,4 @@ If switching to a new conversation:
 
 ## Additional Context: $ARGUMENTS
 
-**Priority**: Focus on capturing information that would be hard to rediscover or reconstruct from code alone.
+**Priority**: Focus on capturing information that would be hard to rediscover or reconstruct from code alone. Must write in Chinese

@@ -2,7 +2,10 @@
   "permissions": {
     "allow": [
       "Bash(for file in /root/git/claude-code-infrastructure-showcase/.claude/skills/frontend-dev-guidelines/resources/*.md)",
-      "Bash(done)"
+      "Bash(*)",
+      "Skill(example-skills:skill-creator)",
+      "Bash(tree:*)",
+      "SlashCommand(/dev-docs:*)"
     ],
     "deny": [],
     "ask": []
