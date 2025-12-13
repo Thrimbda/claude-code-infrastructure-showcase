@@ -1,0 +1,9 @@
+{
+  "mcpServers": {
+    "legionmind": {
+      "command": "npx",
+      "args": ["tsx", ".claude/mcp-servers/legionmind-mcp/src/index.ts"],
+      "env": {}
+    }
+  }
+}

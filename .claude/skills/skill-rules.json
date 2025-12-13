@@ -218,6 +218,49 @@
                     "captureMessage"
                 ]
             }
+        },
+        "legionmind": {
+            "type": "domain",
+            "enforcement": "suggest",
+            "priority": "high",
+            "description": "Cross-session context management for complex tasks. Use when starting complex tasks, resuming work, tracking progress, recording decisions, or handling task handoff.",
+            "promptTriggers": {
+                "keywords": [
+                    "legion",
+                    "legionmind",
+                    ".legion",
+                    "cross-session",
+                    "context management",
+                    "task tracking",
+                    "session reset",
+                    "resume work",
+                    "pick up",
+                    "handoff",
+                    "handover",
+                    "跨会话",
+                    "上下文管理",
+                    "任务追踪",
+                    "恢复工作",
+                    "任务交接"
+                ],
+                "intentPatterns": [
+                    "(start|begin|create).*?(complex|multi-step|long).*?task",
+                    "(resume|continue|pick up).*?(work|task|session)",
+                    "(track|record|save).*?(progress|context|state)",
+                    "(handoff|handover|transfer).*?(task|work)",
+                    "(session|context).*?(reset|lost|restore)",
+                    "开始.*?(复杂|多步骤).*?任务",
+                    "(恢复|继续).*?(工作|任务)",
+                    "(记录|保存|追踪).*?(进度|上下文|状态)"
+                ]
+            },
+            "fileTriggers": {
+                "pathPatterns": [
+                    ".legion/**/*",
+                    ".legion/config.json",
+                    ".legion/tasks/**/*.md"
+                ]
+            }
         }
     },
     "notes": {

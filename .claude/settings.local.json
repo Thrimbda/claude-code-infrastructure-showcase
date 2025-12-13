@@ -5,7 +5,10 @@
       "Bash(*)",
       "Skill(example-skills:skill-creator)",
       "Bash(tree:*)",
-      "SlashCommand(/dev-docs:*)"
+      "SlashCommand(/dev-docs:*)",
+      "Bash(grep:*)",
+      "Bash(wc:*)",
+      "Bash(chmod:*)"
     ],
     "deny": [],
     "ask": []
